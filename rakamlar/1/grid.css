@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows:  repeat(5,100px);
+    place-content: center;
+    gap: 15px;
+}
+div{
+    background-color: red;
+}
+.satir1Kutu{
+    grid-column: 4/5;
+}
+.satir2Kutu{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.satir3Kutu{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.satir3Kutu2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.satir3Kutu3{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.satir4Kutu1{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.satir4Kutu2{
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
